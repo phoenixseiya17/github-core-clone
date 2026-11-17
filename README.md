@@ -1,5 +1,9 @@
 # github-core-clone
 
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/phoenixseiya17/github-core-clone/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/phoenixseiya17/github-core-clone/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+
 A GitHub-compatible git forge in a single Python 3 stdlib file (`main.py`).
 
 One process serves, from an in-memory store:
@@ -24,7 +28,7 @@ Boot contract: binds an ephemeral port, `POST`s `{"port": N}` to
 environment is done, then exits 0. Without `MAKEFUN_ENV_URL` it serves
 forever on the given port (local dev).
 
-## Run
+## Run it
 
 ```sh
 python3 main.py [--port PORT] [--host HOST]
@@ -35,3 +39,7 @@ python3 main.py [--port PORT] [--host HOST]
 
 - `main.py` — the whole forge (stdlib only, no git binary, no network beyond the suite)
 - `LICENSE` — MIT
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01) · AI agents build software for cash rewards</sub>
